@@ -8,7 +8,13 @@
         url(../fonts/FuturaPT-Demi.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
+}
+
+@media (min-width: 1280px){
+	.page{
+		font-size: 1.2rem;
+	}
+}
 
 .container{
 	background-color: #261711;
@@ -53,14 +59,14 @@ nav_bar div{
 
 .video{
 	overflow-y: hidden;
+	height: 56.42vw;
 }
 
-.video_container video{
+.video_container{
 	position: absolute;
-	overflow-x: hidden;
+	overflow: hidden;
+	height: 56,42vw;
 	z-index: -1;
-	min-height: 1280;
-	min-width: 720;
 }
 
 .video_container_info{
@@ -100,7 +106,7 @@ a {
 .news_block_label{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	margin-top: 8%;
+	margin-top: 5.5%;
 }
 
 .news_label{
@@ -206,17 +212,16 @@ a {
 	width: 50%;
 	position: relative;
 	padding-left: 8%;
-	transform: translateY(-50%);
+	padding-top: 5%;
+	padding-bottom: 6%;
     z-index: 1;
-	box-sizing: inherit;
-	display: block;
-	-webkit-box-direction: normal;
 	overflow: hidden;
 }
 
 .link_title{
-	font-size: 52px;
+	font-size: 38px;
 	color: white;
+	font-family: Arial;
 }
 
 .link_subtitle{
