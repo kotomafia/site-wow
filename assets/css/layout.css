@@ -232,7 +232,7 @@ a {
 .link_sub{
 	background-image: url(../img/index_background_3.png);
 	background-color: #000;
-    background-position: 50% 50%;
+    background-position: 55% 50%;
     background-repeat: no-repeat;
 	background-size: cover;
 	font-family: "Open Sans",Arial,Helvetica,sans-serif;
@@ -271,7 +271,7 @@ a {
 
 .link_sub_box{
 	text-align: left;
-	width: 75%;
+	width: 50%;
 	position: relative;
 	padding-left: 8%;
 	padding-top: 5%;
@@ -366,11 +366,15 @@ a {
 	text-transform: uppercase;
 	cursor: pointer;
 	color: #f7b10a;
-	min-width: 200px;
+	min-width: 180px;
 	line-height: 1.5;
 	width: 250px;
 	border: 1px solid #ea3012;
 	padding: 15px;
+}
+
+.link_sub .button-purchase{
+	width: 180px;
 }
 
 .button-purchase:hover{
@@ -401,6 +405,14 @@ a {
 
 .button-info:not(:hover) {
 	transition: 0.4s;
+}
+
+.link_df .panel-buttons{
+	flex-direction: row-reverse;
+}
+
+.link_inv .panel-buttons{
+	flex-direction: row-reverse;
 }
 
 /* FOOTER */
