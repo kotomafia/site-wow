@@ -232,7 +232,7 @@ a {
 .link_sub{
 	background-image: url(../img/index_background_3.png);
 	background-color: #000;
-    background-position: 65% 50%;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
 	background-size: cover;
 	font-family: "Open Sans",Arial,Helvetica,sans-serif;
@@ -349,7 +349,7 @@ a {
 .panel-buttons{
 	padding-top: 1em;
 	display: flex;
-	font-size: 1.2vw;
+	font-size: 20px;
 	gap: 1em;
 	text-align: center;
 	font-family: "Open Sans",Arial,Helvetica,sans-serif;
@@ -373,6 +373,15 @@ a {
 	padding: 15px;
 }
 
+.button-purchase:hover{
+	background: #ea3012;
+	transition: 0.4s;
+}
+
+.button-purchase:not(:hover) {
+	transition: 0.4s;
+}
+
 .button-info{
 	background: rgba(0,0,0,.4);
 	text-transform: uppercase;
@@ -383,6 +392,15 @@ a {
 	width: 200px;
 	border: 1px solid #c77e19;
 	padding: 15px;
+}
+
+.button-info:hover{
+	background: #c77e19;
+	transition: 0.4s;
+}
+
+.button-info:not(:hover) {
+	transition: 0.4s;
 }
 
 /* FOOTER */
