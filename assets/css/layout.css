@@ -112,6 +112,9 @@ nav_bar div{
 a {
     text-decoration: none;
 }
+
+/* NEWS */
+
 .news_block_label_container{
 	display: flex;
 }
@@ -192,6 +195,8 @@ a {
 	background-size: cover;
 	text-shadow: 0 0 1px transparent, 0 1px 2px rgb(0 0 0 / 80%);
 }
+
+/* BLOCKS */
 
 .divider{
 	height: 4px;
@@ -339,6 +344,55 @@ a {
 	width: 50%;
 }
 
+/* BUTTONS */
+
+.panel-buttons{
+	display: flex;
+	font-size: 1.2rem;
+	text-align: center;
+	font-family: Open Sans,Arial,Helvetica,sans-serif;
+	font-weight: 400;
+}
+
+.button-inner{
+	padding: 4%;
+}
+
+.button-info .button-outer{
+	border: 1px solid #c77e19;
+}
+
+.button-purchase .button-outer{
+	border: 1px solid #ea3012;
+}
+
+.button-label{
+	position: relative;
+	z-index: 1;
+}
+
+.button-purchase{
+	background: rgba(159,22,0,.6);
+	margin: 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #f7b10a;
+	min-width: 180px;
+	line-height: 1.5;
+	width: 35%;
+}
+
+.button-info{
+	background: rgba(0,0,0,.4);
+	margin: 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #f7b10a;
+	min-width: 180px;
+	line-height: 1.5;
+	width: 25%;
+}
+
 /* FOOTER */
 
 .pane-bg{
@@ -369,7 +423,7 @@ a {
 	color: #ebdec2;
 }
 
-.footer-copyright{
+.footer{
 	background-image: url(../img/img_background_2.jpg);
 	background-repeat: no-repeat;
 	background-color: #211510;
