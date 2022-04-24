@@ -28,7 +28,6 @@ article {
 }
 
 .logo{
-	max-width: 100%;
 	background-size: 50%;
 	background-repeat: no-repeat;
 	padding-left: 10%;
@@ -42,12 +41,16 @@ article {
 	font-weight: 800;
 }
 
-.nav_bar::before {
+.nav_item{
+	position: relative;
+}
+
+.nav_item::before {
 	content: '';
 	position: absolute;
 	left: 0;
 	top: 1px;
-	width: 2px;
+	width: 1px;
 	bottom: 1px;
 	background: rgba(21,13,9,.8);
 }
@@ -367,7 +370,7 @@ a {
 }
 
 .footer-copyright{
-	background-image: url(../img/img_background_1.jpg);
+	background-image: url(../img/img_background_2.jpg);
 	background-repeat: no-repeat;
 	background-color: #211510;
 	background-position: top;
