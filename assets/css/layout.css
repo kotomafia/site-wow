@@ -3,6 +3,10 @@
 	padding: 0; 
 }
 
+body { 
+    background: #16100d; /* Цвет фона */
+}
+
 @font-face {
     font-family: 'Futura PT';
     src: local('Futura PT Demi'), local('Futura-PT-Demi'),
