@@ -207,7 +207,7 @@ article {
 }
 
 .item-label{
-    opacity: 0;
+    display: none;
 }
 
 .item-h3{
@@ -228,17 +228,16 @@ article {
     background-repeat: no-repeat;
 }
 
-.container-item-1:hover{
-    transform: scale(1.1);
+.item-card:hover {
+    flex-direction: column; 
     transition: 0.4s ease;
+    background-color:rgba(0,0,0,.4);
+    padding-top: 55px;
 }
 
-.container-item-1:hover + .item-h3{
-    padding-bottom: 310px;
-}
-
-.container-item-1:hover + .item-label{
-    opacity: 1;
+.item-card:hover > .item-label {
+    display: block;
+    transition: 0.4s ease;
 }
 
 .container-item-2{
