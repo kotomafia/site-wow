@@ -71,7 +71,7 @@ article {
 /* MAIN */
 
 .page{
-    margin: 0 5%;
+    margin: 0 3%;
 }
 
 .promo{
@@ -124,6 +124,8 @@ article {
     border-bottom: 1px solid #ffffff1f;
     padding-top: 50px;
     padding-bottom: 50px;
+    display: flex;
+    gap: 85px;
 }
 
 .category-list{
@@ -151,12 +153,12 @@ article {
 }
 
 .category-name{
-    color: white;
+    color: #ffffffd6;
     font-family: "Noto Sans", sans-serif;
     font-size: 16px;
     line-height: 28px;
     text-align: left;
-    width: 262px;
+    max-width: 242px;
     line-height: 1.5;
 }
 
@@ -165,10 +167,114 @@ article {
     font-weight: 800;
     font-size: 24px;
     padding-bottom: 10px;
+    width: 272px;
 }
 
 .c-label{
-    width: 95%;
+    width: 90%;
+}
+
+.category-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.product-container{
+    display: flex;
+    background-color: #ffffff0f;
+    border-radius: 4px;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+    width: 295px;
+    height: 442px;
+    max-width: 100%;
+    text-decoration: none;
+}
+
+.product-img{
+    background-image: url(../img/shop/wow-standart.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+    width: 295px;
+    height: 166px;
+}
+
+.product-label{
+    margin: 25px 25px;
+}
+
+.product-price{
+    margin-bottom: 0;
+    padding-left: 25px;
+    color: #ffffffd6;
+    font-family: "Noto Sans Medium 500", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.game-title{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: #c2c2c4;
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.game-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.product-name{
+    color: #ffffffd6;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 4px 0;
+    font-weight: 800;
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+.description-gold{
+    color: #eca704;
+    margin: 4px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.description-gray{
+    color: #ffffffb8;
+    margin: 4px 0;
+    font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.product-container:hover{
+    background-color: rgb(49, 51, 57);
+    transition: 0.3s;
+}
+
+.product-container:not(:hover){
+    transition: 0.3s;
+}
+
+.product-container:hover > .product-label{
+    margin-top: 1em;
+    transition: 0.3s;
+}
+
+.product-container:not(:hover) > .product-label{
+    transition: 0.3s;
 }
 
 /* FOOTER */
