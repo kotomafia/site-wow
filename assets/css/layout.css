@@ -17,18 +17,12 @@ body {
     font-style: normal;
 }
 
-@media (min-width: 1280px){
-	.page{
-		font-size: 1.2rem;
-	}
-}
-
 .container{
 	background-color: #261711;
 	display: flex;
 	max-height: 200px;
 	min-height: 100px;
-	height: 100px;
+	height: 90px;
 	background-image: url(../img/index/navbar.jpg);
 	background-repeat: no-repeat;
 	background-position: top;
