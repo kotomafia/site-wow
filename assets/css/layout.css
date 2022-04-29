@@ -62,12 +62,16 @@ article {
 }
 
 .nav_bar a:hover{
+	background-image: -webkit-linear-gradient(top,#ffffff,#ffffff 100%,#ffffff 100%,#ffffff 100%,#ffffff 100%,#fff 100%,#fff);
 	color: white;
 	transition: 0.2s;
 }
 
 .nav_bar a {
-  color: #b18525;
+	transition: all .25s cubic-bezier(.23,1,.32,1) 0s;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(top,#efd100,#e2a233 19%,#f0c328 30%,#fff1a3 43%,#ffe13e 50%,#fff 51%,#fff);
   text-decoration: none;
 }
 
