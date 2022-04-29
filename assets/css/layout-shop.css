@@ -77,9 +77,8 @@ article {
 .promo{
     background: linear-gradient(to right,#22242c 0%,rgba(34,36,44,.6) 400px,transparent 600px),linear-gradient(to left,#22242c 0px,rgba(34,36,44, 0) 160px), url(../img/shop/promo.jpg);
     background-repeat: no-repeat;
-    max-width: 100%;
     transform: none;
-    width: 1568px;
+    max-width: 1568px;
     height: 344px;
     display: flex;
     align-items: center;
@@ -132,7 +131,7 @@ article {
     display: flex;
     align-items: center;
     background-color: #23252b;
-    max-width: 1568px;
+    max-width: 100%;
     min-height: 52px;
     margin: 50px 0;
     font-family: "Noto Sans", sans-serif;
@@ -194,25 +193,241 @@ article {
     text-decoration: none;
 }
 
+.p-c-mounts{
+	height: 380px;
+}
+
+.p-c-pets{
+	height: 347px;
+}
+
+.p-c-toys{
+	height: 369px;
+}
+
+.p-c-transmog{
+	height: 411px;
+}
+
+.p-c-services{
+	height: 408px;
+}
+
 .product-img{
-    background-image: url(../img/shop/wow-standart.jpg);
     background-size: cover;
 	background-repeat: no-repeat;
     width: 295px;
     height: 166px;
 }
 
+.wow-standart{
+	background-image: url(../img/shop/wow-standart.jpg);
+}
+
+.wow-shadowlands{
+	background-image: url(../img/shop/wow-shadowlands.png);
+}
+
+.wow-classic{
+	background-image: url(../img/shop/wow-classic.png);
+}
+
+.wow-subscribe{
+	background-image: url(../img/shop/wow-subscribe.png);
+}
+
+.wow-subscribe-offer{
+	background-image: url(../img/shop/wow-subscribe-offer.png);
+}
+
+.wow-wenlo{
+	background-image: url(../img/shop/wow-wenlo.png);
+}
+
+.wow-skakun{
+	background-image: url(../img/shop/wow-skakun.png);
+}
+
+.wow-dragon{
+	background-image: url(../img/shop/wow-dragon.png);
+}
+
+.wow-heart{
+    background-image: url(../img/shop/wow-heart.png);
+}
+
+.wow-pig{
+    background-image: url(../img/shop/wow-pig.png);
+}
+
+.wow-illidari{
+    background-image: url(../img/shop/wow-illidari.png);
+}
+
+.wow-ciylin{
+    background-image: url(../img/shop/wow-ciylin.png);
+}
+
+.wow-dog{
+    background-image: url(../img/shop/wow-dog.png);
+}
+
+.wow-ragna{
+    background-image: url(../img/shop/wow-ragna.png);
+}
+
+.wow-dolli{
+    background-image: url(../img/shop/wow-dolli.png);
+}
+
+.wow-captain{
+    background-image: url(../img/shop/wow-captain.png);
+}
+
+.wow-lap{
+    background-image: url(../img/shop/wow-lap.png);
+}
+
+.wow-dayz{
+    background-image: url(../img/shop/wow-dayz.png);
+}
+
+.wow-prokaznik{
+    background-image: url(../img/shop/wow-prokaznik.png);
+}
+
+.wow-salut{
+    background-image: url(../img/shop/wow-salut.png);
+}
+
+.wow-beacon{
+    background-image: url(../img/shop/wow-beacon.png);
+}
+
+.wow-wings{
+    background-image: url(../img/shop/wow-wings.png);
+}
+
+.wow-murlocs{
+    background-image: url(../img/shop/wow-murlocs.jpg);
+}
+
+.wow-observer{
+    background-image: url(../img/shop/wow-observer.png);
+}
+
+.wow-lvlup{
+    background-image: url(../img/shop/wow-lvlup.png);
+}
+
+.wow-changerace{
+    background-image: url(../img/shop/wow-changerace.png);
+}
+
+.wow-changefraction{
+    background-image: url(../img/shop/wow-changefraction.png);
+}
+
+.wow-transfer{
+    background-image: url(../img/shop/wow-transfer.png);
+}
+
+.wow-gametime{
+    background-image: url(../img/shop/wow-gametime.png);
+}
+
+.wow-gm{
+    background-image: url(../img/shop/wow-gm.png);
+}
+
+.wow-changename{
+    background-image: url(../img/shop/wow-changename.png);
+}
+
+.wow-token{
+    background-image: url(../img/shop/wow-token.png);
+}
+
 .product-label{
-    margin: 25px 25px;
+	margin: 25px 25px 0;
 }
 
 .product-price{
-    margin-bottom: 0;
-    padding-left: 25px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-content: flex-end;
+    padding: 24px;
+	text-align: left;
     color: #ffffffd6;
     font-family: "Noto Sans Medium 500", sans-serif;
     font-weight: 600;
     font-size: 17px;
+}
+
+.price-sl{
+	margin: 22px 0 0;
+}
+
+.price-subscribe{
+	margin: 22px 0 0;
+}
+
+.price-offer{
+	padding-left: 24px;
+	padding-top: 5px;
+}
+
+.price-wenlo{
+	padding-left: 24px;
+	padding-top: 5px;
+}
+
+.price-mounts-standart{
+	padding-top: 40px;
+}
+
+.price-dragon{
+	padding-top: 15px;
+}
+
+.price-pig{
+	padding-top: 17px;
+}
+
+.price-salut{
+	padding-top: 5px;
+}
+
+.price-beacon{
+	padding-top: 52px;
+}
+
+.price-wings{
+	padding-top: 72px;
+}
+
+.price-murlocs{
+	padding-top: 35px;
+}
+
+.price-observer{
+	padding-top: 72px;
+}
+
+.price-lvlup{
+	padding-top: 33px;
+}
+
+.price-race{
+	padding-top: 90px;
+}
+
+.price-gametime{
+	padding-top: 39px;
+}
+
+.price-gm{
+	padding-top: 67px;
 }
 
 .game-title{
@@ -278,6 +493,16 @@ article {
     transition: 0.3s;
 }
 
+.product-container:hover > .price-sl{
+    margin-top: 27px;
+    transition: 0.3s;
+}
+
+.product-container:hover > .price-subscribe{
+    margin-top: 27px;
+    transition: 0.3s;
+}
+
 .product-container:not(:hover) > .product-label{
     transition: 0.3s;
 }
@@ -289,8 +514,6 @@ article {
 /* FOOTER */
 
 .icon{
-    padding-top: 50px;
-    padding-bottom: 50px;
     width: 325px;
     opacity: 0.6;
 }
