@@ -349,7 +349,7 @@ article {
 }
 
 .product-label{
-	margin: 25px 25px 0;
+	margin: 25px 25px auto;
 }
 
 .product-price{
@@ -362,72 +362,7 @@ article {
     font-family: "Noto Sans Medium 500", sans-serif;
     font-weight: 600;
     font-size: 17px;
-}
-
-.price-sl{
-	margin: 22px 0 0;
-}
-
-.price-subscribe{
-	margin: 22px 0 0;
-}
-
-.price-offer{
-	padding-left: 24px;
-	padding-top: 5px;
-}
-
-.price-wenlo{
-	padding-left: 24px;
-	padding-top: 5px;
-}
-
-.price-mounts-standart{
-	padding-top: 40px;
-}
-
-.price-dragon{
-	padding-top: 15px;
-}
-
-.price-pig{
-	padding-top: 17px;
-}
-
-.price-salut{
-	padding-top: 5px;
-}
-
-.price-beacon{
-	padding-top: 52px;
-}
-
-.price-wings{
-	padding-top: 72px;
-}
-
-.price-murlocs{
-	padding-top: 35px;
-}
-
-.price-observer{
-	padding-top: 72px;
-}
-
-.price-lvlup{
-	padding-top: 33px;
-}
-
-.price-race{
-	padding-top: 90px;
-}
-
-.price-gametime{
-	padding-top: 39px;
-}
-
-.price-gm{
-	padding-top: 67px;
+    margin-top: auto;
 }
 
 .game-title{
@@ -451,7 +386,7 @@ article {
 
 .product-name{
     color: #ffffffd6;
-    font-size: 22px;
+    font-size: 19px;
     line-height: 22px;
     margin: 4px 0;
     font-weight: 800;
@@ -489,17 +424,7 @@ article {
 }
 
 .product-container:hover > .product-price{
-    margin-top: 5px;
-    transition: 0.3s;
-}
-
-.product-container:hover > .price-sl{
-    margin-top: 27px;
-    transition: 0.3s;
-}
-
-.product-container:hover > .price-subscribe{
-    margin-top: 27px;
+    margin-top: auto;
     transition: 0.3s;
 }
 
