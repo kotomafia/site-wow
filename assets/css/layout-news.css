@@ -206,6 +206,24 @@ article {
     grid-area: post-6;
 }
 
+.grid:hover{
+    border: 1px double #b18525;
+    transition: 0.1s;
+}
+
+.grid:not(:hover){
+    transition: 0.1s;
+}
+
+.news_text:hover > .news-title{
+    color:white;
+    transition: 0.1s;
+}
+
+.news_text:not(:hover) > .news-title{
+    transition: 0.1s;
+}
+
 /* FOOTER */
 
 .divider{
